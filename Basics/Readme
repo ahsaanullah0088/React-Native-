@@ -1,0 +1,21 @@
+// what is react native ? 
+React Native is an open-source UI software framework created by Meta (formerly Facebook) that enables developers to build native-quality cross-platform mobile applications for iOS and Android using JavaScript and the React library
+
+
+Why React native 
+Single Codebase: A primary advantage is the ability to write most of the code once (in JavaScript/TypeScript) and share it across both iOS and Android platforms, which significantly reduces development time and costs.
+Native Components: Unlike older "hybrid" frameworks that wrap web applications in a web browser view (WebView), React Native uses a bridge to communicate between JavaScript code and the platform's native rendering APIs. This means that a React Native <Text> component maps to a real UITextView on iOS or TextView on Android, resulting in a genuine native look, feel, and performance.
+React Fundamentals: It uses the same core principles as React for web development, such as components, state, props, and JSX (a syntax for embedding XML-like markup in JavaScript code).
+Access to Native Features: Developers can access platform-specific APIs and device features like the camera, GPS, and push notifications, either through built-in React Native APIs or community-contributed native modules.
+Hot Reloading: A popular feature that allows developers to see the results of their code changes instantly without needing to recompile or restart the entire application, speeding up the development process.
+Vibrant Ecosystem: It has a large and active developer community, with extensive libraries, tools (like Expo, which simplifies the development process), and support channels. 
+
+
+Popular Applications Built with React Native 
+Many major companies use React Native for some or all of their mobile applications: 
+Facebook
+Instagram
+Microsoft Office
+Walmart
+Shopify
+Pinterest
