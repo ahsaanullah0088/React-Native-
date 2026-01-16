@@ -1,23 +1,11 @@
 import { Stack } from "expo-router";
-import React from "react";
 
-const RootLayout = ()=>{
-    return(
-        <Stack>
-            <Stack.Screen
-                name="index"
-                options={{
-                    title: "Home",
-                }}
-            />
-            <Stack.Screen
-                name="about"
-                options={{
-                    title: "About",
-                }}
-            />
-        </Stack>
-    );
-};
-
-export default RootLayout;
+export default function RootLayout() {
+  return (
+    <Stack>
+      {/* This points to the (tab) folder. 
+          It will automatically load whatever is inside (tab)/_layout.tsx */}
+      <Stack.Screen name="(tab)" options={{ headerShown: false }} />
+    </Stack>
+  );
+}
