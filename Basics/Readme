@@ -19,3 +19,7 @@ Microsoft Office
 Walmart
 Shopify
 Pinterest
+
+// 
+for creating project in it without any dependency its is like this 
+npx create-expo@latest --template blank@latest ./
